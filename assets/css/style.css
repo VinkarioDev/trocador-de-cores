@@ -11,6 +11,13 @@
     align-items: center;
  }
 
+ h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+ }
+
 .container{
     min-width: 400px;
     max-width: 500px;
@@ -41,4 +48,8 @@
 .container button:hover{
     font-weight: bold;
    
+}
+
+#textoCor{
+    font-size: 15px;
 }
